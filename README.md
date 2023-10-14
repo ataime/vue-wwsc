@@ -5,9 +5,14 @@ vue练习
 
 ![Alt text](image.png)
 
-$ npm init vue@latest
-$ npm install element-plus --save
-$ npm install -D unplugin-vue-components unplugin-auto-import
-$ npm i sass -D 
-$ npm i axios
+$ npm init vue@latest  
+
+$ npm install element-plus --save  
+
+$ npm install -D unplugin-vue-components unplugin-auto-import  
+
+$ npm i sass -D  
+
+$ npm i axios  
+
 $ npm run dev    # 运行
