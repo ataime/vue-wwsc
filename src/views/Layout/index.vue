@@ -1,9 +1,16 @@
-<script setup></script>
+<script setup>
+import LayoutFix from "@/views/Layout/components/LayoutFix.vue";
+import LayoutFooter from "@/views/Layout/components/LayoutFooter.vue";
+import LayoutHeader from "@/views/Layout/components/LayoutHeader.vue";
+import LayoutNav from "@/views/Layout/components/LayoutNav.vue";
+</script>
 
 <template>
-    我是首页
-    <!-- 二级路由 -->
-    <router-view/>
+  <LayoutFix></LayoutFix>
+  <LayoutNav></LayoutNav>
+  <LayoutHeader></LayoutHeader>
+  <RouterView />
+  <LayoutFooter></LayoutFooter>
 </template>
 
 <style scoped></style>
